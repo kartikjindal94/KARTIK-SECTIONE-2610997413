@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>World Map Explorer</title>
+</head>
+<body>
+
+    <h1>World Map Explorer</h1>
+
+    <p>Click on different countries to explore the world.</p>
+
+    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/BlankMap-World.svg/960px-BlankMap-World.svg.png"
+         alt="World Map"
+         width="960"
+         height="487"
+         usemap="#worldmap">
+
+    <map name="worldmap">
+
+        <area shape="circle"
+            coords="240,130,40"
+            href="https://en.wikipedia.org/wiki/United_States"
+            alt="United States"
+            target="_blank">
+
+        <area shape="circle"
+              coords="795,145,30"
+              href="https://en.wikipedia.org/wiki/Japan"
+              alt="Japan"
+              target="_blank">
+
+        <area shape="rect"
+              coords="595,135,665,240"
+              href="https://en.wikipedia.org/wiki/India"
+              alt="India"
+              target="_blank">
+
+        <area shape="rect"
+              coords="744,285,850,360"
+              href="https://en.wikipedia.org/wiki/Australia"
+              alt="Australia"
+              target="_blank">
+
+        <area shape="poly"
+              coords="290,222,323,220,348,235,360,260,345,295,328,322,311,309,300,280,293,250"
+              href="https://en.wikipedia.org/wiki/Brazil"
+              alt="Brazil"
+              target="_blank">
+
+        <area shape="poly"
+              coords="455,15,520,5,650,10,740,20,805,45,840,75,805,105,740,110,680,105,630,112,580,95,525,95,480,80,455,50"
+              href="https://en.wikipedia.org/wiki/Russia"
+              alt="Russia"
+              target="_blank">
+
+        <area shape="default"
+              href="https://en.wikipedia.org/wiki/World"
+              alt="Other countries and regions"
+              target="_blank">
+
+    </map>
+
+    <hr>
+
+    <h2>Explore the World</h2>
+
+    <p>Click the United States or Japan to test the circular regions.</p>
+
+    <p>Click India or Australia to test the rectangular regions.</p>
+
+    <p>Click Brazil or Russia to test the polygon regions.</p>
+
+    <p>Click any other region to learn about the world.</p>
+
+</body>
+</html>
